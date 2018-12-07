@@ -1,0 +1,306 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8F8 url(../images/overlay.png) repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	
+}
+
+h2 {
+	color:	#000;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 150%;
+}
+
+strong {
+}
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.fluid_container {
+			margin: 0 auto;
+			padding: 1em;
+			max-width: 800px;
+			width: 100%;
+		}
+
+	.image {
+		display: inline-block;
+	}
+	
+	.image img {
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 4em 0;
+	}
+	
+	.image-left {
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered {
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img {
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+hr {
+	border: 0;
+}
+
+/* line gradient */
+	.line1 {
+		background-color: #906;
+		height: 3.5px;
+		color: #09f;
+	}
+
+/*WRAPPER*/
+
+#outerwrapper {
+	margin: auto;
+	background: #FFF;
+}
+
+.container {
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*HEADER*/
+
+#header-wrapper {
+	background: #970A42 url(../images/overlay.png);
+	background-size: cover;
+}
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 130px;
+}
+
+/*MENU*/
+
+#menu {
+	overflow: hidden;
+	background: #202020;
+}
+
+#menu ul {
+	margin: 0 10% 0;
+	list-style: none;
+	line-height: normal;
+	text-align: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 1em 2em 1em 2em; /*Up Right Down Left*/
+	line-height: 1em;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+	color:	rgba(255,255,255,0.5);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+
+
+/*FOOTER*/
+
+#footer {
+	overflow: hidden;
+	background: #202020;
+	padding: 2em 10% 2em; /*Up Left&Right Down*/
+}
+
+#footer p {
+	text-align:	right;
+	color:	#CCC;
+	padding: 1em 3em 1em;
+}
+
+#footer a {
+		color: rgba(255,255,255,0.4);
+}
+
+/*LOGO*/
+
+#logo {
+	position: absolute;
+	top: 2em;
+	left: 10%;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	font-family: 'Frijole', cursive;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	color: #FFF;
+}
+
+#logo p {
+	font-family: 'Orbitron', sans-serif;
+	padding-left: 5em;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	font-size: 0.9em;
+	color: #FFF;
+}
+
+#logo p a {
+	color: #FFF;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/** PAGE */
+
+#page {
+	background: #FFF /*#FFF*/;
+	background-size: cover;
+	overflow: hidden;
+	padding: 1em 10% 5em;
+}
+
+	#page img {
+		margin-bottom: 1em;
+	}
+
+	#page .title {
+		margin-bottom: 2em;
+	}
+
+	#page .title h2 {
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#page .title .byline {
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);
+	}
+	
+	#page .li {
+		
+	}
+	
+	.column1,
+	.column2,
+	.column3,
+	.column4,
+	.column5 {
+	float: left;
+	margin: 1.5em;
+}
+	
+	.column1 {
+		width: 35%;
+	}
+	.column2 {
+		width: 25%;
+	}
+	.column3 {
+		width: 25%;
+	}
+
+
+	.button {
+	margin-top: 1em;
+}
+
+#page p {
+	font-size: 1em;
+	
+}
+
+/* Button Style */
+	.button
+	{
+		display: inline-block;
+		margin-top: 1em;
+		padding: 0.3em 1em;
+		background: #933;
+		border-radius: 8px;
+		letter-spacing: 0.10em;
+		line-height: 2em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.8em;
+		color: #FFF;
+	}
